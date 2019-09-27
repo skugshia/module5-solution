@@ -178,9 +178,9 @@ function chooseRandomNumber() {
     aboutHtmlUrl,
     function (aboutHtml) {
         var x = Math.floor((Math.random() * 5) + 1); //<09/27/2019><skugshi1>Stores the generated random number. 
-        var filledStar = "fa fa-star";
-        var unfilledStar = "fa fa-star-o";
-        var aboutHtmlToInsertStar = aboutHtml;
+        var filledStar = "fa fa-star"; //<09/27/2019><skugshi1>Stores the class property for colored/filled star. 
+        var unfilledStar = "fa fa-star-o";//<09/27/2019><skugshi1>Stores the class property for uncolored/unfilled star. 
+        var aboutHtmlToInsertStar = aboutHtml;//<09/27/2019><skugshi1>Stores the URL for the about.html page. 
         
     /*<09/26/2019><skugshi1>
       The following for loop, loops depending upon the random number
