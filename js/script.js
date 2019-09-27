@@ -1,3 +1,15 @@
+/*
+  Name: Sukayna Kugshia
+  Date: 9/26/2019
+  Description: The script.js file includes the modifications for Step 0 - 4. 
+               The modifications that have been made, will be denoted by a comment
+               using the date and my initials. Additionally, the modifications for the
+               about.html page have also been made. Comments have been made next to any 
+               modifications.
+                                  
+                                  Assignment #5 
+*/
+
 $(function () { // Same as document.addEventListener("DOMContentLoaded"...
 
   // Same as document.querySelector("#navbarToggle").addEventListener("blur",...
@@ -165,7 +177,7 @@ function chooseRandomNumber() {
   $ajaxUtils.sendGetRequest(
     aboutHtmlUrl,
     function (aboutHtml) {
-        var x = Math.floor((Math.random() * 5) + 1);
+        var x = Math.floor((Math.random() * 5) + 1); //<09/27/2019><skugshi1>Stores the generated random number. 
         var filledStar = "fa fa-star";
         var unfilledStar = "fa fa-star-o";
         var aboutHtmlToInsertStar = aboutHtml;
